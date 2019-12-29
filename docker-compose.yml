@@ -14,7 +14,6 @@ services:
       - DB_PASSWORD=docker
       - TZ='Asia/Tokyo'
 
-
   nginx:
     image: nginx
     container_name: nginx
